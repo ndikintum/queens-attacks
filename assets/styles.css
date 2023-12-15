@@ -40,10 +40,10 @@ body {
 }
 
 .selected {
-  background-color: #aaffaa;
+  background-color: #afa;
 }
 
-#checkButton {
+#checkbutton {
   margin-top: 10px;
   padding: 2vw;
   font-size: 1em;
@@ -67,7 +67,7 @@ body {
     height: 10vw;
   }
 
-  #checkButton {
+  #checkbutton {
     padding: 3vw;
   }
 }
