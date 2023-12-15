@@ -34,12 +34,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (selectedQueens.length < 2) {
       selectedQueens.push([row, col])
       button.classList.add('queen', 'selected')
-      button.innerHTML = '&#9813;'// Unicode for chess queen
+      button.innerHTML = '&#9813;' // Unicode for chess queen
     } else {
       const prevSelectedButtons = document.querySelectorAll('.selected')
       prevSelectedButtons.forEach(btn => {
         btn.classList.remove('selected')
-        btn.innerHTML = ' // Clear the queen icon
+        btn.innerHTML = '' // Clear the queen icon
       })
 
       selectedQueens = [[row, col]]
